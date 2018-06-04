@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Web Document</title>
+		<meta charset="utf-8">
+		<meta name="viewport" 
+		content= "width-device-width, initial-scale=1">
+		<meta name="description" content="An example of audio visual tags in html">
+		<meta name="author" content="Gabriela">
+
+	</head>	
+
+<body>
+	<nav id="nav">
+		<ul>
+			<li><a href="#home">Home</a></li>
+			
+			<li><a href="#project">Project</a></li>
+			
+			<li><a href="#about">About</a></li>
+			
+			<li><a href="#news">News</a></li>
+			
+			<li><a href="#rights">Attribution</a></li>
+			
+			<li><a href="https://gabbymedp285.blogspot.com" target= "_blank" alt= "blog link">Blog</a></li>
+		</ul>
+	</nav>
+
+
+
+<!-- Home-->
+<header id="home">
+	<video autoplay loop>
+		
+		<source src="video/gob.mp4"
+		type="video/mp4">
+		
+		<source src="video/gob.webm"
+		type="video/webm">
+		
+		<source src="video/gov.ogv"
+		type="video/ogg">
+	</video>
+</header>
+
+
+
+
+<!-- Projecy-->
+<section id="project">
+	<h1>A Short Playful Animation</h1>
+
+	<p>
+		<strong>Lorem Ipsum</strong><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="nav">Top</a>
+	</p>
+
+</section>
+
+<!-- about-->
+<section id="about">
+	<h1>An Idea for a Game</h1>
+
+	<p>
+		<strong>Lorem Ipsum</strong><br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  The audio tag has the fllowing attributes: autoplay, loop, controls, muted, preload, and of course src...
+	<audio src="audio/snd00.mp3" controls> </audio>  
+    <br>
+	<a href="nav">Top</a>
+
+	</p>
+</section>
+
+
+
+<!-- News -->
+<section id="news">
+	
+	<h1> News: This Summer Bockbusters</h1>
+	
+	<table border="1">
+
+		<tr>
+				<th>Title</th>
+				<th>Company</th>
+				<th>Gross</th>
+		</tr>
+		<tr>
+				<th>Solo: A Star Wars Story</th>
+				<th> Walt Disney Pictures</th>
+				<th>$29.4M</th>
+		</tr>
+		<tr>
+				<th>Deadpool</th>
+				<th>20th Century Fox</th>
+				<th>$23.4M</th>
+		</tr>
+	</table>
+	<a href="nav">Top</a>
+
+
+</section>
+
+</body>
+
+
+<!--Footter -- contact-->
+<footer id="rights">
+	
+	<h2>Attribution</h2>
+	<p> This is liscened under the Creative Commons Attributions ShareAlike 3.0 License. CC</p>
+	<p> <time pubdate datetime= "2018-04-06 16:20"></time></p>
+<a href="nav">Top</a>
+</footer>
+
+
+
+
+
+
+</html>
